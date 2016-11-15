@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+        .row {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #product-list .row:nth-child(even){
+            background: #eee;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>JS Demo shop</h1>
+        </div>
+        <div class="row bg-info">
+            &nbsp;
+        </div>
+
+        <div class="row text-danger" style="border-bottom: 1px solid #ccc">
+            <div class="col-sm-5">
+                Product
+            </div>
+            <div class="col-sm-4">
+                Category
+            </div>
+            <div class="col-sm-2">
+                Price
+            </div>
+            <div class="col-sm-1">
+
+            </div>
+        </div>
+
+        <div id="product-list">
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery/productList.js"></script>
+</body>
+</html>

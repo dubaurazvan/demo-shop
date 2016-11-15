@@ -1,0 +1,52 @@
+[
+  {
+    "id" : 1,
+    "name" : "iPad Air 2",
+    "category" : {
+        "id": 3,
+        "name" : "Electronics"
+    },
+    "isRemovable": true,
+    "price" : 550
+  },
+  {
+    "id" : 2,
+    "name" : "Rolex R22",
+    "category" : {
+        "id": 15,
+        "name" : "Watches"
+    },
+    "isRemovable": false,
+    "price" : 1450
+  },
+  {
+    "id" : 3,
+    "name" : "Lenovo E266",
+    "category" : {
+        "id": 7,
+        "name" : "IT / Laptops"
+    },
+    "isRemovable": true,
+    "price" : 799
+  },
+  {
+    "id" : 4,
+    "name" : "Samsung Galaxy S7 Edge",
+    "category" : {
+        "id": 4,
+        "name" : "Mobile phones"
+    },
+    "isRemovable": true,
+    "price" : 460
+  },
+  {
+    "id" : 5,
+    "name" : "Sony Headphones",
+    "category" : {
+        "id": 2,
+        "name" : "Audio"
+    },
+    "isRemovable": true,
+    "price" : 125
+  }
+]
